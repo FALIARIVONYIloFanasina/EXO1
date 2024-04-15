@@ -1,0 +1,18 @@
+Algorithme Table_de_verite
+Variables n: entier
+     A, B: variable booléenne
+Début
+  Ecrire("Entrer le nombre de variables")
+  Lire(n)
+  Ecrire("La combinaison totale est: ")
+  Lire(2^n)
+  Ecrire("Donner la fonction logique" )
+  Lire("F = A*B + notA*notB")
+  A*B + notA*notB <- fonction
+  Si (A*B = 0 ou notA*notB = 0) alors
+    Ecrire(F = 0)
+  Sinon
+    Ecrire(F = 1)
+  Fin Si
+  Ecrire("La table de verite est:")
+Fin
